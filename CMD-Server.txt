@@ -1,0 +1,16 @@
+Microsoft Windows [Version 10.0.19045.6466]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\Abdarrahman>cd "C:\mongodb-win32-x86_64-2008plus-2.6.4\bin"
+
+C:\mongodb-win32-x86_64-2008plus-2.6.4\bin>mongod.exe --dbpath C:\data\db --smallfiles
+2025-11-25T15:39:44.058+0100 [initandlisten] MongoDB starting : pid=1600 port=27017 dbpath=C:\data\db 64-bit host=DESKTOP-I7FEF5M
+2025-11-25T15:39:44.059+0100 [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2025-11-25T15:39:44.061+0100 [initandlisten] db version v2.6.4
+2025-11-25T15:39:44.061+0100 [initandlisten] git version: 3a830be0eb92d772aa855ebb711ac91d658ee910
+2025-11-25T15:39:44.061+0100 [initandlisten] build info: windows sys.getwindowsversion(major=6, minor=1, build=7601, platform=2, service_pack='Service Pack 1') BOOST_LIB_VERSION=1_49
+2025-11-25T15:39:44.061+0100 [initandlisten] allocator: system
+2025-11-25T15:39:44.061+0100 [initandlisten] options: { storage: { dbPath: "C:\data\db", smallFiles: true } }
+2025-11-25T15:39:44.066+0100 [initandlisten] journal dir=C:\data\db\journal
+2025-11-25T15:39:44.066+0100 [initandlisten] recover : no journal files present, no recovery needed
+2025-11-25T15:39:44.166+0100 [initandlisten] waiting for connections on port 27017
